@@ -1,0 +1,89 @@
+/*nav bar*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #0073d8;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*color theme*/
+
+.w3-theme-l5 {color:#000 !important; background-color:#fefcfa !important}
+.w3-theme-l4 {color:#000 !important; background-color:#fcf6ef !important}
+.w3-theme-l3 {color:#000 !important; background-color:#f9eddf !important}
+.w3-theme-l2 {color:#000 !important; background-color:#f5e5ce !important}
+.w3-theme-l1 {color:#000 !important; background-color:#f2dcbe !important}
+.w3-theme-d1 {color:#000 !important; background-color:#e8c08c !important}
+.w3-theme-d2 {color:#000 !important; background-color:#e1ad69 !important}
+.w3-theme-d3 {color:#fff !important; background-color:#db9a47 !important}
+.w3-theme-d4 {color:#fff !important; background-color:#cf8729 !important}
+.w3-theme-d5 {color:#fff !important; background-color:#ac7122 !important}
+
+.w3-theme-light {color:#000 !important; background-color:#fefcfa !important}
+.w3-theme-dark {color:#fff !important; background-color:#ac7122 !important}
+.w3-theme-action {color:#fff !important; background-color:#ac7122 !important}
+
+.w3-theme {color:#000 !important; background-color:#efd3af !important}
+.w3-text-theme {color:#efd3af !important}
+.w3-border-theme {border-color:#efd3af !important}
+
+.w3-hover-theme:hover {color:#000 !important; background-color:#efd3af !important}
+.w3-hover-text-theme:hover {color:#efd3af !important}
+.w3-hover-border-theme:hover {border-color:#efd3af !important}
